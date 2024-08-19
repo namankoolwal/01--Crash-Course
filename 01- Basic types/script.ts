@@ -31,3 +31,21 @@ function throwError(): never {
     }
 
     console.log(direction.up); // UP
+
+
+    // *****************************Practise*******************************
+
+    let array : any[] = []
+
+    array.push(10)
+    array.push("naman")
+
+    const names : readonly string[] = ["naman"]
+
+    // names.push("khandelwal") // error - readonly array
+
+    const ourTuple : readonly [number, string, boolean] = [1, "naman", true]
+
+
+    console.log(ourTuple) // [1, "naman", true, 10]
+    
